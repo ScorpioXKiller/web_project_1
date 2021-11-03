@@ -1,0 +1,43 @@
+.description{
+  margin: 100px 0;
+  display: flex;
+  justify-content: center;
+}
+
+.two-colums{
+  width: 80%;
+  height: 540px;
+  min-width: 784px;
+  display: flex;
+  position: relative;
+}
+
+.two-colums__brief{
+  width: 175px;
+  margin: 0;
+  line-height: 1.2;
+  font-size: 18px;
+  color: #2f80ed;
+}
+
+.two-colums__main-text{
+  height: 100%;
+  min-height: 20px;
+  position: absolute;
+  margin: 0 0 0 175px;
+  top: 0;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: normal;
+}
+
+.two-colums__span-accent{
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: bold;
+}
+
