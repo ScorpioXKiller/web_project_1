@@ -1,96 +1,87 @@
 .page {
   min-width: 1100px;
-  /* we don't know how to make mobile versions of websites yet, */
-  /* so here we've set a minimum page width */
   max-width: 1600px;
-  /* here we've set a maximum page width */
   margin: 0 auto;
-  /* this ensures that all content is centered on screens wider than 1600px */
   font-family: 'Helvetica Neue', Arial, sans-serif;
 
 }
 
-.element-border_solid{
-  border: 1px solid black;
+.background_color_grey{
+  background-color: #F2F2F2;
 }
 
-.header {
+.content{
   height: 100vh;
-  min-height: 600px;
-  max-height: 756px;
-  position: relative;
-  /* parameters for the header section */
 }
 
-/* here we have two examples of selectors in order to remind you how to set styles for elements */
+.section_theme_dark{
+  background-color: #1F1F1F;
+}
 
+.section__text_theme_dark{
+  color: white;
+}
 
-.header__logo{
-  width: 154px;
-  height: 31px;
+.section-title
+{
+  width: 60%;
+}
+
+.section-titles_align_center{
   display: flex;
-  margin-left: 64px;
-  margin-top: 30px;
+  align-items: center;
+  flex-direction: column;
 }
 
-.header__logo-place{
-  position: absolute;
-  z-index: 1;
-}
-
-.header__title{
-  width: 730px;
-  line-height: 96px;
-  font-size: 102px;
+.section-title__text{
+  margin: 0;
+  line-height: 69px;
+  font-size: 60px;
   font-weight: bold;
-  margin-left: 64px;
-  margin-top: 300px;
-  position: absolute;
-  z-index: 2;
+  text-align: center;
 }
 
-.header__subtitle{
-  width: 388px;
-  line-height: 25px;
+.section-subtitle{
+  width: 60%;
+  margin-top: 20px;
+}
+
+.section-subtitle__text{
+  margin: 0;
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: normal;
+  text-align: center;
+}
+
+.table{
+  width: 1100px;
+  margin-bottom: 100px;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.table__list{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.table__cell-heading{
+  margin: 0;
+  line-height: 1.15;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.table__cell-text{
+  margin-top: 20px;
+  margin-bottom: 0;
+  line-height: 1.2;
   font-size: 18px;
   font-weight: normal;
-  margin-left: 64px;
-  bottom: 30px;
-  margin-bottom: auto;
-  position: absolute;
-  z-index: 2;
-}
-
-.header__subtitle-link{
-  color: #2f80ed;
-  text-decoration: none;
-}
-
-.header__main-illustration{
-  width: 756px;
-  height: 608px;
-  display: flex;
-  position: absolute;
-  bottom: 0;
-  right: 0;
-  z-index: 1;
-}
-
-.header__square{
-  height: 568px;
-  width: 568px;
-  background-color: #2f80ed;
-  position: absolute;
-  right: 0;
-  top: 0;
-  margin-top: 64px;
-  z-index: 0;
-}
-
-/* including elements with key-value modifiers */
-.table__cell_theme_dark {
-  width: 200px;
-  color: white;
-  margin-right: 0;
-  margin-top: 80px;
 }
