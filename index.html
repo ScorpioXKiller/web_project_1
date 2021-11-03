@@ -5,22 +5,27 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="styles/normalize.css">
   <link rel="stylesheet" href="styles/style.css">
+  <link rel="stylesheet" href="styles/header.css">
+  <link rel="stylesheet" href="styles/description_section.css">
+  <link rel="stylesheet" href="styles/digits_section.css">
+  <link rel="stylesheet" href="styles/feynman_section.css">
+  <link rel="stylesheet" href="styles/kaufman_section.css">
   <title>Learning how to learn</title>
 </head>
 <body>
   <div class="page">
-    <header class="header">
+    <header class="header background_color_grey">
 
       <div class="header__logo header__logo-place">
         <img src="images/logo_place_header.png" alt="Header logo">
       </div>
 
-      <p class="header__title">Learning How to Learn</p>
+      <div class="header__title">Learning How to Learn</div>
 
-      <p class="header__subtitle">
-        The most effective, cutting-edge learning techniques that you can apply to your daily life.
-        <a class="header__subtitle-link" href="#"><br/>Learn more →</a>
-      </p>
+      <div class="header__subtitle">
+        The most effective, cutting-edge learning techniques that you can apply to your daily life.<br/>
+        <a class="header__link" href="#">Learn more →</a>
+      </div>
 
       <div class="header__main-illustration">
         <img src="images/header-image.png" alt="Main illustration">
@@ -31,15 +36,170 @@
     </header>
     <main class="content">
       <section class="description">
+        <div class="two-colums">
+          <h2 class="two-colums__brief">
+            The main problem with education
+          </h2>
+
+          <ul class="two-colums__main-text">
+            <li>Whether it's at school or university, the one thing no one ever teaches you is how to teach yourself. We often just end up drilling specific exercises and mindlessly memorizing information so that when exam time comes around, we pass the test. But once the test is over, that information has outlived its usefulness, and there's no guarantee that information will be retained. In the end, we're really just learning how to pass our tests.</li>
+            <li>
+              <span class="two-colums__span-accent">Here's the real question: </span>
+              does this approach of repetition and memorization help us truly understand the subject material? The academic consensus nowadays is that it doesn't. In fact, what's more important than any individual topic is knowing how to study, but for some reason, this point is often overlooked. So, what can we do to remedy this?
+            </li>
+            <li>Well, there are various techniques and exercises that can be applied to the educational process to help make it more efficient and engaging. Keep scrolling to uncover some of the secrets of effective learning.</li>
+          </ul>
+        </div>
       </section>
 
-      <section class="digits">
+      <section class="digits section-titles_align_center">
+        <div class="section-title digits-title_margin_top">
+          <p class="section-title__text">Facts and figures</p>
+        </div>
+
+        <div class="section-subtitle">
+          <p class="section-subtitle__text">On learning and the brain</p>
+        </div>
+
+        <div class="table__list-space-between"></div>
+
+        <div class="table">
+          <ul class="table__list table">
+            <li class="table__cell digits-table__cell-size">
+              <p class="table__cell-heading">86 billion</p>
+              <p class="table__cell-text">The number of neurons in the human brain</p>
+            </li>
+
+            <li class="table__cell digits-table__cell-size">
+              <p class="table__cell-heading">73%</p>
+              <p class="table__cell-text">The percentage of adults in the US who consider themselves lifelong learners</p>
+              <p class="table__cell-text">Pew Research Center</p>
+            </li>
+
+            <li class="table__cell digits-table__cell-size">
+              <p class="table__cell-heading">1000 terabytes</p>
+              <p class="table__cell-text">The information storage capacity of a human</p>
+            </li>
+
+            <li class="table__cell digits-table__cell-size">
+              <p class="table__cell-heading">500 trillion</p>
+              <p class="table__cell-text">The number of nerve synapses responsible for learning in the average adult human</p>
+            </li>
+          </ul>
+
+          <div class="table__list-space-between"></div>
+
+          <ul class="table__list table">
+            <li class="table__cell digits-table__cell-size">
+              <p class="table__cell-heading">420 million</p>
+              <p class="table__cell-text">The number of adults under 25 with insufficient education for finding employment</p>
+              <p class="table__cell-text">World Bank, 2017</p>
+            </li>
+
+            <li class="table__cell digits-table__cell-size">
+              <p class="table__cell-heading">26 years old</p>
+              <p class="table__cell-text">The age at which Albert Einstein published his groundbreaking paper on special relativity</p>
+            </li>
+
+            <li class="table__cell digits-table__cell-size">
+              <p class="table__cell-heading">1885</p>
+              <p class="table__cell-text">Development of the forgetting curve</p>
+            </li>
+
+            <li class="table__cell digits-table__cell-size">
+              <p class="table__cell-heading">1897</p>
+              <p class="table__cell-text">Publication of Ivan Pavlov's research on classical conditioning</p>
+            </li>
+          </ul>
+        </div>
       </section>
 
-      <section class="feynman">
+      <section class="feynman section-titles_align_center background_color_grey">
+        <div class="feynman__title">
+          <p class="feynman__title-text ">The Feynman Technique </p>
+        </div>
+
+        <div class="feynman__subtitle">
+          <p class="feynman__subtitle-text">Learn without forgetting</p>
+        </div>
+
+        <a class="feynman__link" href="#">More →</a>
+
+        <div class="feyman__picture">
+          <img src="images/feynman.png" alt="Richard Feynman">
+        </div>
       </section>
 
-      <section class="kaufman">
+      <section class="kaufman section_theme_dark section-titles_align_center">
+        <div class="section-title kaufman kaufman-title_margin_top">
+          <p class="section-title__text section__text_theme_dark">
+            Ten principles of rapid skill acquisition
+          </p>
+        </div>
+
+        <div class="section-subtitle kaufman">
+          <p class="section-subtitle__text section__text_theme_dark">by Josh Kaufman</p>
+        </div>
+
+        <div class="table kaufman section__text_theme_dark">
+          <ul class="table__list kaufman-table__list_padding_top">
+            <li class="table__cell kaufman-table__cell-size">
+              <p class="table__cell-heading">1</p>
+              <p class="table__cell-text">Choose a lovable project</p>
+            </li>
+
+            <li class="table__cell kaufman-table__cell-size">
+              <p class="table__cell-heading">2</p>
+              <p class="table__cell-text">Focus your energy on one skill at a time</p>
+            </li>
+
+            <li class="table__cell kaufman-table__cell-size">
+              <p class="table__cell-heading">3</p>
+              <p class="table__cell-text">Define your target performance level</p>
+            </li>
+
+            <li class="table__cell kaufman-table__cell-size">
+              <p class="table__cell-heading">4</p>
+              <p class="table__cell-text">Deconstruct the skill into sub-skills</p>
+            </li>
+
+            <li class="table__cell kaufman-table__cell-size">
+              <p class="table__cell-heading">5</p>
+              <p class="table__cell-text">Obtain critical tools</p>
+            </li>
+          </ul>
+
+          <ul class="table__list kaufman-table__list_padding_top">
+            <li class="table__cell kaufman-table__cell-size">
+              <p class="table__cell-heading">6</p>
+              <p class="table__cell-text">Eliminate barriers to practice</p>
+            </li>
+
+            <li class="table__cell kaufman-table__cell-size">
+              <p class="table__cell-heading">7</p>
+              <p class="table__cell-text">Make dedicated time for practice</p>
+            </li>
+
+            <li class="table__cell kaufman-table__cell-size">
+              <p class="table__cell-heading">8</p>
+              <p class="table__cell-text">Create fast feedback loops</p>
+            </li>
+
+            <li class="table__cell kaufman-table__cell-size">
+              <p class="table__cell-heading">9</p>
+              <p class="table__cell-text">Practice by the clock in short bursts</p>
+            </li>
+
+            <li class="table__cell kaufman-table__cell-size">
+              <p class="table__cell-heading">10</p>
+              <p class="table__cell-text">Emphasize quantity and speed</p>
+            </li>
+          </ul>
+        </div>
+
+        <div class="kaufman__triangle">
+          <img src="images/kaufman-triangle.svg" alt="A big blue triangle, over which Josh Kaufman claims ownership">
+        </div>
       </section>
     </main>
     <footer class="footer">
