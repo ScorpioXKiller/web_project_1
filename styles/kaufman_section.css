@@ -1,5 +1,7 @@
 .kaufman{
   z-index: 1;
+  position: relative;
+  overflow: hidden;
 }
 
 .kaufman-title_margin_top{
@@ -19,5 +21,4 @@
   height: 660px;
   position: absolute;
   right: -124px;
-  overflow: hidden;
 }
