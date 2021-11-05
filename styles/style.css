@@ -18,15 +18,17 @@
   min-height: 600px;
   max-height: 756px;
   display: flex;
+  position: relative;
   flex-direction: column;
   justify-content: center;
 }
 
 .logo{
-  z-index: 1;
+  z-index: 2;
 }
 
 .logo_place_header{
+  border: 1px solid black;
   width: 154px;
   height: 31px;
   margin-left: 64px;
@@ -76,6 +78,7 @@
   height: 568px;
   width: 568px;
   background-color: #2f80ed;
+  display: flex;
   position: absolute;
   right: 0;
   top: 0;
@@ -130,8 +133,7 @@
   align-items: center;
 }
 
-.section-title
-{
+.section-title{
   width: 60%;
   margin: 0 0 20px;
   line-height: 69px;
