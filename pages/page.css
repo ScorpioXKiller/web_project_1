@@ -1,0 +1,19 @@
+@import url("../blocks/header/header.css");
+@import url("../blocks/content/description/description.css");
+@import url("../blocks/content/feynman/feynman.css");
+@import url("../blocks/content/digits/digits.css");
+@import url("../blocks/content/kaufman/kaufman.css");
+@import url("../blocks/two-columns/two-columns.css");
+@import url("../blocks/logo/logo.css");
+@import url("../blocks/table/table.css");
+@import url("../blocks/table/__cell/_theme/table__cell_theme_dark.css");
+@import url("../blocks/section-title/section-title.css");
+@import url("../blocks/section-subtitle/section-subtitle.css");
+@import url("../blocks/footer/footer.css");
+
+.page {
+  min-width: 1100px;
+  max-width: 1600px;
+  margin: 0 auto;
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+}
