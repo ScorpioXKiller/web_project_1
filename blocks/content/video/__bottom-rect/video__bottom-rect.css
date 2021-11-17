@@ -1,0 +1,8 @@
+.video__bottom-rect{
+  height: 160px;
+  width: 100%;
+  position: absolute;
+  bottom: -100px;
+  z-index: -1;
+  background-color: #F2F2F2;
+}
