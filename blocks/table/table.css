@@ -2,7 +2,6 @@
 @import url("__cell/_size/table__cell_size_s.css");
 @import url("__heading/table__heading.css");
 @import url("__text/table__text.css");
-@import url("_theme/table_theme_dark.css");
 
 .table{
   width: 1100px;
